@@ -1,2 +1,2 @@
 # cretor-s_ipo
-here we are making a website were creators exchange theirs ipos
+here we are making a website where creators can exchange theirs ipos
