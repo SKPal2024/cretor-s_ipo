@@ -1,0 +1,129 @@
+.investor-page {
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #fff3e0, #e1f5fe);
+  text-align: center;
+}
+
+.investor-page h1 {
+  font-size: 2.5rem;
+  color: #263238;
+}
+
+.investor-page p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.creator-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.creator-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.creator-card:hover {
+  transform: scale(1.05);
+}
+
+.creator-dp {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.creator-card h3 {
+  margin-bottom: 0.5rem;
+  color: #212121;
+}
+
+.creator-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.creator-card a:hover {
+  text-decoration: underline;
+}
+.investor-page {
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(to bottom, #fff3e0, #ffe0b2);
+  min-height: 100vh;
+}
+
+.creator-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.creator-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  width: 260px;
+  transition: transform 0.3s ease;
+}
+
+.creator-card:hover {
+  transform: translateY(-6px);
+}
+
+.creator-dp {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.creator-card h3 {
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.creator-card a {
+  display: inline-block;
+  margin: 0.5rem 0;
+  color: #1e88e5;
+  text-decoration: none;
+}
+
+.creator-card a:hover {
+  text-decoration: underline;
+}
+
+.buy-button {
+  margin-top: 0.5rem;
+  padding: 0.6rem 1rem;
+  background-color: #43a047;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #2e7d32;
+}
