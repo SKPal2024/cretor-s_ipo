@@ -330,3 +330,59 @@ html, body {
 .sponsor-form button:hover {
   background: linear-gradient(to right, #ff8f00, #ff6f00);
 }
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.app-container {
+  position: relative;
+  min-height: 100%;
+  z-index: 1;
+  color: white;
+}
+
+.animated-page-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  background: linear-gradient(-45deg, #8e44ad, #3498db, #fd79a8, #9b59b6);
+  background-size: 400% 400%;
+  animation: gradient 30s ease infinite;
+  overflow: hidden;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.bubble {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  animation: float 20s linear infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(100%) scale(1);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-10%) scale(0.5);
+    opacity: 0;
+  }
+}
